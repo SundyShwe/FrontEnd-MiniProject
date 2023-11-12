@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortage Calculator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <form>
+      <h2 class="center"><span>Mortage Calculator</span></h2>
+      <div>
+        <label for="input-principal">Pincipal Loan Amount</label>
+        <input type="number" id="input-principal" name="principal" required />
+      </div>
+      <div>
+        <label for="input-rate">Interest Rate</label>
+        <input type="number" id="input-rate" name="rate" required /> %
+      </div>
+      <div>
+        <label for="input-years">Length of Loan</label>
+        <input type="text" id="input-years" name="years" required /> Years
+      </div>
+      <div class="center">
+        <button type="submit" class="btn" />Calculate</button>
+        <button id="btnReset" class="btn" />Reset</button>
+      </div>
+      <div id="result"></div>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
